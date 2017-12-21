@@ -32,8 +32,9 @@ public class login {
            Scanner input = new Scanner(System.in);
            String password;
            String username;
+            
+            username= input.nextLine();
             password = input.nextLine();
-             username= input.nextLine();
           /*Email = input.nextLine();*/
           
           /*  case "S":
@@ -45,10 +46,10 @@ public class login {
             default:
                 break;*/
         }
-    }
+  
 
     
-  /*  public void verify_login()
+    public void verify_login()
     {
         Signup data = new Signup();
         if ((Email == null ? data.E_mail == null : Email.equals(data.E_mail)) && (password == null ? data.password == null : password.equals(data.password)))
@@ -56,4 +57,5 @@ public class login {
             System.out.println("log in is true");
         }
         
-    }*/
+    }
+    }
