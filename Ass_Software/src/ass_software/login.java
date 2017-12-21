@@ -28,7 +28,7 @@ public class login {
                 Email    = input.nextLine();
                 password = input.nextLine();
                 break;*/
-         System.out.println("please inter your username and password : ");
+         System.out.println("please Enter your username and password : ");
            Scanner input = new Scanner(System.in);
            String password;
            String username;
